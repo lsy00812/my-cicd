@@ -26,7 +26,7 @@ public class TravelcourseController {
 	
 	@GetMapping("/hello")
 	public String hello() {
-		return "연습 github actions";
+		return "연습 github actions!";
 	}
 
 	@GetMapping("/api/course")
