@@ -23,6 +23,11 @@ public class TravelcourseController {
 
 	@Autowired
 	private TravelcourseService service;
+	
+	@GetMapping("/hello")
+	public String hello() {
+		return "연습 github actions";
+	}
 
 	@GetMapping("/api/course")
 	public ResponseEntity<List<TravelcourseDto>> openCourseList() throws Exception {
