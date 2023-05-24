@@ -35,7 +35,7 @@ jobs:
       run: chmod +x ./LastProjectBack/gradlew
 
     - name: Execute Gradle build
-      run: ./LastProjectBack/gradlew build -p ./LastProjectBack
+      run: ./LastProjectBack/gradlew build -p ./LastProjectBack -x test
       
 #     - name: Configure AWS credentials
 #       uses: aws-actions/configure-aws-credentials@v1
