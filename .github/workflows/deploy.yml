@@ -2,9 +2,8 @@ name: Deploy to Amazon EC2
 
 on:			
   push:	
-    branches: [ "main" ]
+    branches: [ main ]
 
-# 본인이 설정한 값으로 입력(변경)해야 함
 env:			
   AWS_REGION: ap-northeast-2
   S3_BUCKET_NAME: project-cicd-bucket
