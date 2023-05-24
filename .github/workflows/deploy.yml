@@ -30,7 +30,7 @@ jobs:
         java-version: '11'  
 
     - name: Build with Gradle 
-      run: mvn -B package --file ./LastProjectBack/build.gradlew
+      run: ./gradlew build
 
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
