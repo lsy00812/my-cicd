@@ -32,7 +32,7 @@ jobs:
       uses: gradle/gradle-build-action@v2
     
     - name: asdd permission 
-      run: chmod +x ./gradlew
+      run: chmod +x gradlew
     
     - name: Execute Gradle build
       run: ./gradlew build
